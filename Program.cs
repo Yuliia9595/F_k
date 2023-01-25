@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("> P - Gym + Pool");
         Console.WriteLine("> T - Personal Training");
 
-        string membershipType = Console.ReadLine();
+        string membershipType = Console.ReadLine(); //ЛИШНЯЯ карта
 
         MembershipFactory factory = GetFactory(membershipType);
 
