@@ -26,7 +26,7 @@ class Program
             $"\tDescription:\t{membership.Description}\n" +
             $"\tPrice:\t\t{membership.GetPrice()}");
 
-        Console.ReadLine();
+        Console.ReadLine(); //сюда нужно добавить строку входа и выхода Шевченко А.А. 
     }
 
     private static MembershipFactory GetFactory(string membershipType) =>
